@@ -1,10 +1,5 @@
 # Luminous
 
-[![CI Status](http://img.shields.io/travis/Andrea Mario Lufino/Luminous.svg?style=flat)](https://travis-ci.org/Andrea Mario Lufino/Luminous)
-[![Version](https://img.shields.io/cocoapods/v/Luminous.svg?style=flat)](http://cocoapods.org/pods/Luminous)
-[![License](https://img.shields.io/cocoapods/l/Luminous.svg?style=flat)](http://cocoapods.org/pods/Luminous)
-[![Platform](https://img.shields.io/cocoapods/p/Luminous.svg?style=flat)](http://cocoapods.org/pods/Luminous)
-
 ![Logo](./Example/Luminous.png)
 
 ## Example
@@ -14,8 +9,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Requirements
 
 - iOS 8+
-- Swift 3
-- Xcode 8
+- Swift 5
+- Xcode 10
 
 ## Installation
 
@@ -46,10 +41,10 @@ Luminous is the son of [ALSystemUtilities](https://github.com/andrealufino/ALSys
 
 Luminous is a big library that I like to consider an "Helper Library". It provides a lot of information about the system and has some features that can speed up significantly the development process.
 
-~~It is composed by 3 parts :
-- system information (`Luminous.System.<substruct>`)
-- utils (some handy method like the email check)
-- custom app configuration ~~
+~~It is composed by 3 parts :~~
+~~- system information (`Luminous.System.<substruct>`)~~
+~~- utils (some handy method like the email check)~~
+~~- custom app configuration~~
 
 Luminous is no more composed by 3 parts as I think that a library has to serve one and one only purpose. I removed the Utils and AppConfiguration structs. I'm sorry for any kind of inconvenience this could cause to everyone is using it, but I think that it's the right choice.
 
